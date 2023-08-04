@@ -7,7 +7,7 @@
 :root {
     --white: #fff;
     --dark: #232830;
-    --very-light-pink: #c7c7c7;
+    --very-light-pink: #c7c7c7e7;
     --text-input-field: #f7f7f7;
     --hospital-green: #acd9b2;
     --sm: 14px;
@@ -46,6 +46,28 @@
 }
 .container-form {
     padding: 0 16px;
+}
+.container-title{
+    padding: 0 16px;
+}
+.container-title h1{
+    font-size: var(--lg);
+}
+
+.email-image {
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  auto;
+    margin-bottom: 8%;
+    margin-top: 8%;
+}
+.email-image img {
+    width: 80px;
 }
 .form_label{
     margin-bottom: 4px;
@@ -94,7 +116,10 @@
 }
 .form_link{
     margin-top: 28px;
-    display: block;
+    text-align: center;
+    color: var(--very-light-pink);
+}
+.link {
     text-decoration: none;
     text-align: center;
     color: var(--hospital-green);
