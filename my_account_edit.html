@@ -15,16 +15,19 @@
   </head>
   <body>
     <main class="container">
-      <div class="container-logo">
-        <img
-          src="/assets/logos/logo_yard_sale.svg"
-          alt=""
-          class="logo__image"
-        />
+      <div class="container-title">
+        <h1>My account</h1>
       </div>
 
       <div class="container-form">
         <form action="/">
+          <label for="name" class="form_label">Name</label>
+          <input
+            type="name"
+            class="form_input input_name"
+            placeholder="Your Full Name"
+          />
+
           <label for="email" class="form_label">Email address</label>
           <input
             type="email"
@@ -41,20 +44,10 @@
 
           <input
             type="submit"
-            class="form_button primary-button"
-            value="Log in"
+            class="form_button primary-button button-responsive"
+            value="Save"
           />
-
-          <p class="form_link">
-            <a href="/" class="link">Forgot my password</a>
-          </p>
         </form>
-      </div>
-
-      <div class="container-callToAction">
-        <button class="form_button secondary-button button-responsive">
-          Sign up
-        </button>
       </div>
     </main>
   </body>

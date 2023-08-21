@@ -9,52 +9,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="shortcut icon"
+      href="./assets/logos/favicon_bota_fora.svg"
+      type="img"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <main class="container">
-      <div class="container-logo">
-        <img
-          src="/assets/logos/logo_yard_sale.svg"
-          alt=""
-          class="logo__image"
-        />
+      <div class="container-title">
+        <h1>My account</h1>
       </div>
 
       <div class="container-form">
         <form action="/">
+          <label for="name" class="form_label">Name</label>
+          <p class="value">Camila Yokoo</p>
+
           <label for="email" class="form_label">Email address</label>
-          <input
-            type="email"
-            class="form_input input_email"
-            placeholder="youremail@dominio.com"
-          />
+          <p class="value">camilayokoo@gmail.com</p>
 
           <label for="password" class="form_label">Password</label>
-          <input
-            type="password"
-            class="form_input input_password"
-            placeholder="******"
-          />
+          <p class="value">********</p>
 
           <input
             type="submit"
-            class="form_button primary-button"
-            value="Log in"
+            class="form_button secondary-button button-responsive"
+            value="Edit"
           />
-
-          <p class="form_link">
-            <a href="/" class="link">Forgot my password</a>
-          </p>
         </form>
-      </div>
-
-      <div class="container-callToAction">
-        <button class="form_button secondary-button button-responsive">
-          Sign up
-        </button>
       </div>
     </main>
   </body>
